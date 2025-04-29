@@ -1,0 +1,14 @@
+#!/bin/bash
+# Use this script to compile your Watopoly files in dependency order
+
+# Set compiler and flags
+cxx="g++"
+cxxflags="-std=c++20 -fmodules-ts -Wall -g"
+
+# Compile in the correct order for module dependencies
+$cxx $cxxflags -c Declarations.cc
+$cxx $cxxflags -c Implementations.cc
+$cxx $cxxflags -c harness.cc
+
+# Link all object files together
+$cxx *.o -o watopoly

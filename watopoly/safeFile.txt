@@ -1,0 +1,10 @@
+2
+player1 D 0 1000 7
+player2 B 4 120 1
+
+AL player2 0
+ML player2 0
+MKV player2 3
+
+MC player1 5
+DC player1 4
