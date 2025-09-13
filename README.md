@@ -127,15 +127,6 @@ The game uses modern C++20 modules with the following key components:
 - **Dice**: Random number generation with testing support
 - **CommandInterpreter**: User input processing
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes following C++20 best practices
-4. Test your changes in both normal and testing modes
-5. Commit your changes: `git commit -am 'Add some feature'`
-6. Push to the branch: `git push origin feature-name`
-7. Submit a pull request
 
 ## 🐛 Troubleshooting
 
